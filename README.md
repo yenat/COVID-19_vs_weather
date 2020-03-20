@@ -8,5 +8,7 @@ According to the World Health Organization and the evidence scientists have been
 
 This analysis is done to see the possible relationship between the variables “confirmed cases” and “weather” based on data. The first thing we did is find the most updated report regarding corona from kaggle (https://www.kaggle.com/medyasun/corona-virus-complete-dataset). The data is sourced from the World Health Organization (WHO) and it is published daily . The main section of the Situations Reports are long tables of the latest number of confirmed cases and confirmed deaths by country. The latest and downloaded version of the data is available here in this repo corona-virus-complete-dataset.
 
+Using WorldWeatherOnline historical weather data API wrapper the weather data was downloaded and merged with the covid-19 dataset for correlation analysis.
+
 Correlation matrix weather vs Covid-19 
 ![Correlation Matrix](correlationmatrix.png)
