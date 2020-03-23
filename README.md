@@ -10,5 +10,7 @@ This analysis is done to see the possible relationship between the variables “
 
 Using WorldWeatherOnline historical weather data API wrapper the weather data was downloaded and merged with the covid-19 dataset for correlation analysis.
 
+The final processed data is "weather_case_combined.csv". The cases relationship with tempreture is depicted in "Avg. of cases by tempC.png" From the graph we can say that the highest the tempreture the lowest the confirmed cases are. However, it is hard to confirm this without considering other attributes like number of smokers, age, population dencity etc...
+
 Correlation matrix weather vs Covid-19 
 ![Correlation Matrix](correlationmatrix.png)
