@@ -30,10 +30,10 @@ Because the spread of coronavirus is at it's early stage and datasets that are c
 
 # Dataset sources
 
-Covid-19 dataset -  https://www.kaggle.com/medyasun/corona-virus-complete-dataset
-Population density - https://www.worldometers.info/world-population/population-by-country/
-cigratte consumer - https://en.wikipedia.org/wiki/List_of_countries_by_cigarette_consumption_per_capita
-Population greater than 65 - https://data.worldbank.org/indicator/SP.POP.65UP.TO
+- Covid-19 dataset -  https://www.kaggle.com/medyasun/corona-virus-complete-dataset
+- Population density - https://www.worldometers.info/world-population/population-by-country/
+- cigratte consumer - https://en.wikipedia.org/wiki/List_of_countries_by_cigarette_consumption_per_capita
+- Population greater than 65 - https://data.worldbank.org/indicator/SP.POP.65UP.TO
 
 
 # Contributors
