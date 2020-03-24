@@ -10,15 +10,17 @@ The aim of this analysis work is to see the possible relationship or correlation
 
 # Correlation Matrix 
 A correlation matrix is a table showing correlation coefficients between variables. Each cell in the table shows the correlation between two variables. A correlation matrix is used to summarize data, as an input into a more advanced analysis, and as a diagnostic for advanced analyses.
+In this work, Spearman method is used than others to perform the correlation since it can be able to assess monotonic relationships (whether linear or not).
 
 Therefore, the first thing we did is find the most updated report regarding corona from kaggle (https://www.kaggle.com/medyasun/corona-virus-complete-dataset). The data is sourced from the World Health Organization (WHO) and it is published daily . The main section of the Situations Reports are long tables of the latest number of confirmed cases and confirmed deaths by country. The latest and downloaded version of the data is available here in this repo corona-virus-complete-dataset.
 
-Using WorldWeatherOnline historical weather data API wrapper (https://github.com/ekapope/WorldWeatherOnline) the weather data was downloaded for the whole countries in the world and also for top 20 countries with highest confirmed cases and merged with the covid-19 dataset for correlation analysis.The result is shown below.
+Using WorldWeatherOnline historical weather data API wrapper (https://github.com/ekapope/WorldWeatherOnline) the weather data was downloaded for the whole countries in the world and merged with the covid-19 dataset for correlation analysis.The final processed data for the whole country in the world is found in Data folder with the name "weather_case_combined.csv". The preprocessing is done with the python scripts preprocess and merge_csv. The result of the correlation is shown below.
 
 ![Correlation Matrix](covid_for_all_countries.png)
-The final processed data for the whole country in the world is found in Data folder with the name "weather_case_combined.csv". The confirmed cases relationship with temperature is depicted in "Avg. of cases by tempC.png" From the graph we can say that the highest the temperature the lowest the confirmed cases are. However, it is hard to confirm this without considering other attributes like number of smokers, age, population density etc...
 
-Consequently after adding attributes Number of smokers,number of people with age greater than 65 and population density and with the weather data still present, correlation of the top20 countries with these attributes have been identified and is displayed below.
+In addition,the confirmed cases relationship with temperature is depicted in "Avg. of cases by tempC.png".The graph is obtained using Dataiku DSS visual analysis tool.From the graph we can say that the highest the temperature the lowest the confirmed cases are. However, it is hard to confirm this without considering other attributes like number of smokers, age, population density etc...
+
+Consequently after adding attributes such as Number of cigarette consumption per capita,number of people with age greater than 65 and population density and the weather data still being present, correlation of the top20 countries of highest confirmed cases with these attributes have been identified. The preprocessed data can be found in Data folder with the name top_20_all_dataset and the final result is displayed below.
 
 ![Correlation Matrix](spreaman_correlation_matrix.png)
 
@@ -38,6 +40,9 @@ Because the spread of coronavirus is at its early stage and datasets that may co
 - Population density - https://www.worldometers.info/world-population/population-by-country/
 - cigratte consumer - https://en.wikipedia.org/wiki/List_of_countries_by_cigarette_consumption_per_capita
 - Population greater than 65 - https://data.worldbank.org/indicator/SP.POP.65UP.TO
+
+# Tool used for Analysis
+- Dataiku DSS. It provides a common ground for data experts and explorers, a repository of best practices, and shortcuts to machine learning and AI deployment/management. Here it was used for both preprocessing and building correlation matrix.
 
 
 # Contributors
