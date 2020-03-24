@@ -7,6 +7,7 @@ There has been a lot of speculation recently about COVID-19 and how it relates t
 According to the World Health Organization and the evidence scientists have been able to gather so far, COVID-19 can be transmitted in all areas, including those with hot and humid weather. They also say there is no reason to believe that cold weather or snow can kill the COVID-19 virus. 
 
 The aim of this analysis work is to see the possible relationship or correlation between the variables “confirmed cases” and “weather” based on the theory.
+
 # Correlation Matrix 
 A correlation matrix is a table showing correlation coefficients between variables. Each cell in the table shows the correlation between two variables. A correlation matrix is used to summarize data, as an input into a more advanced analysis, and as a diagnostic for advanced analyses.
 
@@ -14,7 +15,7 @@ Therefore, the first thing we did is find the most updated report regarding coro
 
 Using WorldWeatherOnline historical weather data API wrapper (https://github.com/ekapope/WorldWeatherOnline) the weather data was downloaded for the whole countries in the world and also for top 20 countries with highest confirmed cases and merged with the covid-19 dataset for correlation analysis.The result is shown below.
 
-![Correlation Matrix](correlationmatrix.png)
+![Correlation Matrix](covid_for_all_countries.png)
 The final processed data for the whole country in the world is found in Data folder with the name "weather_case_combined.csv". The confirmed cases relationship with temperature is depicted in "Avg. of cases by tempC.png" From the graph we can say that the highest the temperature the lowest the confirmed cases are. However, it is hard to confirm this without considering other attributes like number of smokers, age, population density etc...
 
 Consequently after adding attributes Number of smokers,number of people with age greater than 65 and population density and with the weather data still present, correlation of the top20 countries with these attributes have been identified and is displayed below.
