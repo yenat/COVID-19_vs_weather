@@ -38,7 +38,7 @@ Population greater than 65 - https://data.worldbank.org/indicator/SP.POP.65UP.TO
 
 # Contributors
 
-Behailu Dereje
-Bitseat Tadesse
-Hana Sinishaw
-Yenatfenta Shiferaw
+- Behailu Dereje
+- Bitseat Tadesse
+- Hana Sinishaw
+- Yenatfenta Shiferaw
