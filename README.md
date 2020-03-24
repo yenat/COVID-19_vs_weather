@@ -20,7 +20,7 @@ Using WorldWeatherOnline historical weather data API wrapper (https://github.com
 
 In addition,the confirmed cases relationship with temperature is depicted in "Avg. of cases by tempC.png".The graph is obtained using Dataiku DSS visual analysis tool.From the graph we can say that the highest the temperature the lowest the confirmed cases are. However, it is hard to confirm this without considering other related attributes.
 
-![Graph](Avg. of cases by tempC.png)
+![Graph](Avg_of_cases_by_tempC.png)
 
 Consequently after adding attributes such as Number of cigarette consumption per capita,number of people with age greater than 65 and population density and the weather data still being present, correlation of the top20 countries of highest confirmed cases with these attributes have been identified. The preprocessed data can be found in Data folder with the name top_20_all_dataset and the final result is displayed below.
 
