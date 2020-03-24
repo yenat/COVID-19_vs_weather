@@ -8,7 +8,7 @@ According to the World Health Organization and the evidence scientists have been
 
 This analysis is done to see the possible relationship between the variables “confirmed cases” and “weather” based on data. The first thing we did is find the most updated report regarding corona from kaggle (https://www.kaggle.com/medyasun/corona-virus-complete-dataset). The data is sourced from the World Health Organization (WHO) and it is published daily . The main section of the Situations Reports are long tables of the latest number of confirmed cases and confirmed deaths by country. The latest and downloaded version of the data is available here in this repo corona-virus-complete-dataset.
 
-Using WorldWeatherOnline historical weather data API wrapper the weather data was downloaded and merged with the covid-19 dataset for correlation analysis.
+Using WorldWeatherOnline historical weather data API wrapper (https://github.com/ekapope/WorldWeatherOnline) the weather data was downloaded and merged with the covid-19 dataset for correlation analysis.
 ![Correlation Matrix](covid_for_all_countries.png)
 The final processed data is "weather_case_combined.csv". The cases relationship with tempreture is depicted in "Avg. of cases by tempC.png" From the graph we can say that the highest the tempreture the lowest the confirmed cases are. However, it is hard to confirm this without considering other attributes like number of smokers, age, population density etc...
 
