@@ -28,10 +28,11 @@ Consequently after adding attributes such as Number of cigarette consumption per
 
 # Conclusion
 
-Looking into the above correlation matrix the conclusion drawn is there is a weak postive correlation between covid-19 and other variables. The research we have done cannot fully conclude the correlation as weak postive correlation due to the fact that the dataset we have used is small and also there were some considerations we have made. They are:
+Looking into the above correlation matrix the conclusion drawn is there is a weak postive correlation between covid-19 and other variables. The research we have done cannot fully conclude the correlation as weak postive correlation due to the fact that the dataset we have used is small and also there were some considerations we have made. These are:
 - We took the temperature of the country.
 - We have considered the number of population with age greater than 65.
 - Cigarette consumption per capita because of unavailability of number of smokers data for each country.
+
 Because the spread of coronavirus is at its early stage and datasets that may contain full information are not available currently,this work will be concluded stating that the correlation found using the mentioned data is weak positive correlation. 
 
 # Dataset sources
