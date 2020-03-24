@@ -1,4 +1,4 @@
-# COVID-19 confirmed cases vs weather, Population Age greater than 65, population density, cigarette smoking population
+## COVID-19 confirmed cases vs weather, Population Age greater than 65, population density, cigarette smoking population
 Please wash your hands before reading this doc. :)
 COVID-19 is the infectious disease caused by the most recently discovered coronavirus. This new virus and disease were unknown before the outbreak began in Wuhan, China, in December 2019.
 
