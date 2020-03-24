@@ -1,4 +1,4 @@
-# COVID-19_vs_weather
+# COVID-19 confirmed cases vs weather, Population Age greater than 65, population density, cigarrette smoking population
 Please wash your hands before reading this doc. :)
 COVID-19 is the infectious disease caused by the most recently discovered coronavirus. This new virus and disease were unknown before the outbreak began in Wuhan, China, in December 2019.
 
@@ -12,5 +12,33 @@ Using WorldWeatherOnline historical weather data API wrapper the weather data wa
 
 The final processed data is "weather_case_combined.csv". The cases relationship with tempreture is depicted in "Avg. of cases by tempC.png" From the graph we can say that the highest the tempreture the lowest the confirmed cases are. However, it is hard to confirm this without considering other attributes like number of smokers, age, population dencity etc...
 
-Correlation matrix weather vs Covid-19 
-![Correlation Matrix](correlationmatrix.png)
+# Correlation Matrix
+A correlation matrix is a table showing correlation coefficients between variables. Each cell in the table shows the correlation between two variables. A correlation matrix is used to summarize data, as an input into a more advanced analysis, and as a diagnostic for advanced analyses.
+
+Correlation matrix between confirmed cases vs weather, Population Age greater than 65, population density, cigarrette smoking population
+
+![Correlation Matrix](spreaman_correlation_matrix.png)
+
+
+
+# Conclusion
+
+Looking into the above correlation matrix the conclusion drawn is there is a weak postive correlation between covid-19 and other variables. The research we have done cannot fully conclude there correlation as weak postive correlation due to the fact the dataset we have used is small and also there were some considerations we have made. They are:
+            - We took the temperature of the country.
+            - We have considered the number of population with age greater than 65.
+Because the spread of coronavirus is at it's early stage and datasets that are contain full information are not available currently the research finished stating the correlation is weak postive correlation. 
+
+# Dataset sources
+
+Covid-19 dataset -  https://www.kaggle.com/medyasun/corona-virus-complete-dataset
+Population density - https://www.worldometers.info/world-population/population-by-country/
+cigratte consumer - https://en.wikipedia.org/wiki/List_of_countries_by_cigarette_consumption_per_capita
+Population greater than 65 - https://data.worldbank.org/indicator/SP.POP.65UP.TO
+
+
+# Contributors
+
+Behailu Dereje
+Bitseat Tadesse
+Hana Sinishaw
+Yenatfenta Shiferaw
